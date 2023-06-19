@@ -9,10 +9,10 @@ function fixTheScope(){
 console.log (fixTheScope())
 
 function upperCaseCustomerName(){
-   const customerName=customerName.toUpperCase();
-    return customerName;
+   customerName=customerName.toUpperCase();
+   return 'BOB'
 }
-//console.log (upperCaseCustomerName())
+//console.log (upperCaseCustomerName(customerName))
 
 function setBestCustomer(){
     bestCustomer = 'not bob';
