@@ -9,8 +9,7 @@ function fixTheScope(){
 console.log (fixTheScope())
 
 function upperCaseCustomerName(){
-   customerName=customerName.toUpperCase();
-   return 'BOB'
+   return customerName=customerName.toUpperCase();
 }
 //console.log (upperCaseCustomerName(customerName))
 
